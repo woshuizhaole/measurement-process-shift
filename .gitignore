@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+data/
+results/
+logs/
+*.pt
+*.pkl
+*.npz
+*.log
