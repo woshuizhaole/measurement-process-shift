@@ -57,7 +57,7 @@ def main():
     mig = 1.0 - gain_orc / gain_src
 
     out = {
-        "direction": "B2A (eICU->MIMIC target)",
+        "direction": "B2A (B->A target)",
         "method_pair": "R4_ipw vs value_mask",
         "n_patients": int(len(yl)),
         "grid": "np.linspace(0.01,0.6,60) (== models.best_threshold official grid)",
